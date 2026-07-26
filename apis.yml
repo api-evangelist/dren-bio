@@ -1,7 +1,30 @@
 aid: dren-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dren-bio.png
 name: Dren Bio
-description: Dren Bio is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Dren Bio is a clinical-stage biopharmaceutical company based in Foster City, California,
+  focused on the discovery and development of novel antibody therapeutics that selectively
+  deplete pathogenic cells and other disease-causing agents. Its proprietary Targeted Myeloid
+  Engager and Phagocytosis Platform is a multispecific, antibody-based technology designed to
+  induce potent depletion of disease-causing agents by engaging a novel phagocytic receptor
+  selectively expressed on myeloid cells. The pipeline spans two first-in-class clinical-stage
+  programs (including DR-01 and DR-0202) plus multiple preclinical and discovery-stage programs
+  across oncology, autoimmune disease, immunology, and neurology. Dren Bio has established
+  strategic collaborations with Pfizer and Sanofi, the latter of which acquired its DR-0201
+  (SAR448501) bispecific myeloid cell engager program. The company was surfaced as a portfolio
+  company of 8vc and added to the API Evangelist network. It publishes no public API or
+  developer surface; this profile captures its identity and public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/dren-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biopharmaceutical
+- Biotechnology
+- Antibody Therapeutics
+- Oncology
+- Autoimmune
+- Immunology
+- Neurology
+- Drug Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://drenbio.com
+- type: Support
+  url: https://www.drenbio.com/contact.html
+- type: Blog
+  url: https://www.drenbio.com/news.html
+- type: PrivacyPolicy
+  url: https://www.drenbio.com/privacy.html
+- type: TermsOfService
+  url: https://www.drenbio.com/termsofuse.html
+- type: DomainSecurity
+  url: security/dren-bio-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
