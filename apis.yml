@@ -37,6 +37,9 @@ description: >-
   company of 8vc and added to the API Evangelist network. It publishes no public API or
   developer surface; this profile captures its identity and public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/dren-bio/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It publishes no public API or developer surface; this profile captures its identity and public web properties."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
